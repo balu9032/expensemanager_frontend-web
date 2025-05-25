@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 function Login() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    const [showPassword, setShowPassword] = useState(false);
+    // const [showPassword, setShowPassword] = useState(false);
     const navigate = useNavigate();
 
     const handleLogin = (e) => {
